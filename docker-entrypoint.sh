@@ -1,4 +1,5 @@
 #!/bin/bash
+rsyslogd &
 
 # Ugly hack to do nothing and wait for SIGTERM
 while true; do
